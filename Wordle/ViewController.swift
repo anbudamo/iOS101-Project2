@@ -51,7 +51,7 @@ class ViewController: UIViewController,
                                                target: self,
                                                action: #selector(didTapResetButton))
       leftBarButtonItem.tintColor = .white
-      navigationItem.rightBarButtonItem = leftBarButtonItem
+      navigationItem.leftBarButtonItem = leftBarButtonItem
     // END YOUR CODE HERE
   }
   
